@@ -14,6 +14,7 @@ public class FirstTest {
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://mvnrepository.com/artifact/org.testng/testng/6.13.1");
 		driver.manage().window().maximize();
+		driver.close();
 		
 	}
 
